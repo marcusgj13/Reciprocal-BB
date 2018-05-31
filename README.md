@@ -1,8 +1,8 @@
 # Reciprocal-BB
-Programs for performing reciprocal best BLAST searches on a list of genes/proteins to find homologs. 
-Author: Marcus Gallagher-Jones
-Institution: UCLA Department of chemistry and biochemistry
-Email: marcusgj13@gmail.com
+Programs for performing reciprocal best BLAST searches on a list of genes/proteins to find homologs.   
+Author: Marcus Gallagher-Jones  
+Institution: UCLA Department of chemistry and biochemistry  
+Email: marcusgj13@gmail.com  
 
 # Introduction 
 
@@ -30,9 +30,9 @@ python -m pip install biopython
 If you would like to run a local version of the script you will need to install the BLAST+
 suite of programs. Instructions for thise can be found here:
 
-https://www.ncbi.nlm.nih.gov/books/NBK52637/ (Windows)
-https://www.ncbi.nlm.nih.gov/books/NBK52640/ (Linux)
-https://www.ncbi.nlm.nih.gov/books/NBK279671/ (Mac)
+https://www.ncbi.nlm.nih.gov/books/NBK52637/ (Windows)  
+https://www.ncbi.nlm.nih.gov/books/NBK52640/ (Linux)  
+https://www.ncbi.nlm.nih.gov/books/NBK279671/ (Mac)  
 
 In the same directory it is recommended to make a directory containing blast databases
 for each genome/proteome you wishto perform BLASTs against. This can be done as follows:
