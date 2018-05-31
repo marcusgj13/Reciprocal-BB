@@ -57,7 +57,7 @@ Trypanosoma_proteome.fasta Human_proteome.fasta 1 0.1
 Running Recip_BB_homologs.py requires you to give organism names in the form of an Entrez query:
 
 python Recip_BB_homologs.py sequences_to_check.fasta 'output_filename' 'query_organism_name' 'subject_organism_name'
-position_in_fasta_file eValue
+position_in_fasta_file eValue 
 
 e.g.
 

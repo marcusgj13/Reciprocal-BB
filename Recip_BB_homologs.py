@@ -267,7 +267,7 @@ def parse_sequences(filename, gene_source, organism_a, organism_b,
 
 # Get variables from input
 
-script, filename, gene_source, organism_a, organism_b, eVal, start_point = argv
+script, filename, gene_source, organism_a, organism_b, start_point, eVal = argv
 start_point = int(start_point)
 eVal = float(eVal)
 
