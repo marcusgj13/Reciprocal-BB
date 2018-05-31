@@ -47,21 +47,22 @@ installed on your machine (local) the other requires an internet connection so t
 the BLAST servers can be accessed. 
 
 Running Recip_BB_homologs_local:
-
+```python
 python Recip_BB_homologs_local.py sequences_to_check.fasta ‘output_filename’ ‘query_organism_name’ ‘subject_organism_name’ 
 query_database.fasta subject_database.fasta position_in_fasta_file eValue  
-
+```
 e.g.
-
+```python
 python Recip_BB_homologs_local.py test.fasta ‘test’ ‘Trypanosoma_brucei_brucei’ ‘Homo_Sapiens’ 
 Trypanosoma_proteome.fasta Human_proteome.fasta 1 0.1
-
+```
 Running Recip_BB_homologs.py requires you to give organism names in the form of an Entrez query:
-
+```python
 python Recip_BB_homologs.py sequences_to_check.fasta 'output_filename' 'query_organism_name' 'subject_organism_name'
 position_in_fasta_file eValue 
-
+```
 e.g.
-
+```python
 python Recip_BB_homologs.py test.fasta 'test' 'Trypanosoma brucei brucei [organism]' 'Homo sapiens [organism]'
 1 0.1
+```
