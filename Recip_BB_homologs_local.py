@@ -1,6 +1,5 @@
 from sys import argv
 import time
-#import signal
 from Bio import SeqIO
 from Bio.Seq import *
 from Bio.Alphabet import *
@@ -15,21 +14,6 @@ from Bio.Blast.Applications import NcbiblastpCommandline
 # makeblastdb.
 # Program can be run by: python Recip_BB_homologs.py args
 # Marcus Gallagher-Jones    Department of Chemistry and Biochemistry    02/09/2018
-
-# These lines are here to handle the fact that BLAST sometimes randomly hangs
-# when connection to the server is lost.
-#class TimeoutException(Exception):   # Custom exception class
-#    time.sleep(60)
-#    pass
-
-
-#def timeout_handler(signum, frame):   # Custom signal handler
- #   raise TimeoutException
-
-
-# Change the behavior of SIGALRM
-#signal.signal(signal.SIGALRM, timeout_handler)
-
 
 def do_blast(inputName, organism, outputName,eVal):
     blastp_cline = NcbiblastpCommandline(query=inputName,
