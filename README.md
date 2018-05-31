@@ -36,9 +36,9 @@ https://www.ncbi.nlm.nih.gov/books/NBK279671/ (Mac)
 
 In the same directory it is recommended to make a directory containing blast databases
 for each genome/proteome you wishto perform BLASTs against. This can be done as follows:
-
+```
 makeblastdb -in some_proteome.fasta -parse_seqids -dbtype prot.
-
+```
 
 # Running the programs 
 
